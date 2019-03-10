@@ -2,7 +2,7 @@ package com.dong.adapter;
 
 public class Test {
     public static void main(String[] args) {
-        //Translator相当于以及能听懂英文的中场球员
+        //Translator相当于一个能听懂英文的中场球员
         Player ym = new Translator("姚明");
         ym.attack();
         ym.defence();
