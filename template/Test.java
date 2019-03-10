@@ -5,7 +5,7 @@ public class Test {
         AbstractTemplate c = new ConcreteTemplateA();
         c.templateMethod();
         System.out.println("====================");
-        c = new ConcreteTemplateB();
-        c.templateMethod();
+        AbstractTemplate d = new ConcreteTemplateB();
+        d.templateMethod();
     }
 }
