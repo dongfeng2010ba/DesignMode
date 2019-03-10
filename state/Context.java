@@ -1,6 +1,7 @@
 package com.dong.state;
 /*
 *  Context类，维护一个ConcreteState子类的实例，这个实例定义当前的状态
+*  z这个类好比就是大话设计模式加班故事中的work类
 * */
 public class Context {
     private State state;
