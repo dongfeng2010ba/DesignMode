@@ -16,5 +16,6 @@ public class Test {
 
         cs2.setSubjectState("NBA季后赛开始了！");
         cs2.notifyObervers();
+
     }
 }
