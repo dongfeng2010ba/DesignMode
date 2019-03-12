@@ -9,10 +9,6 @@ public abstract class Implementor {
     public Implementor() {
     }
 
-    public Implementor(String name) {
-        this.name = name;
-    }
-
 
     public String getName() {
         return name;
